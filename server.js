@@ -5,9 +5,6 @@ var assert = require('assert');
 var crypto = require('crypto');
 const fs = require('fs');
 
-// CMD TO START DATABASE : mongod --dbpath=/Users/achillepenet/Documents/CoursESIR/ESIR2/SB3/BabyBearChatReact/data
-
-
 const app = require('https').createServer({
   key: fs.readFileSync('certif/localhost.key'),
   cert: fs.readFileSync('certif/localhost.crt'),
