@@ -26,11 +26,9 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
-    "react-resizable-and-movable": "^3.0.0",
     "require.js": "^1.0.0",
     "sha256": "^0.2.0",
     "socket.io": "^1.7.3",
-    "socket.io-client": "^1.7.3",
-    "socket.io-react": "^1.1.2"
+    "socket.io-client": "^1.7.3"
   }
 }
