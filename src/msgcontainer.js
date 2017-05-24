@@ -1,7 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
 import 'react-bootstrap';
-import Rnd from './css/index.js';
 import './css/container.css';
 import Input from './input.js';
 import Msg from './msg.js';
