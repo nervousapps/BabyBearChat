@@ -1,0 +1,3 @@
+This is the database directory
+
+Command to run the database : mongod --dbpath=/CURRENT_PATH/data
