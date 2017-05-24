@@ -1,2 +1,2 @@
 # BabyBearChat
-HTTP secure chat using NodeJS and ReactJS, with MongoDB database.
+HTTP secure chat using NodeJS, ReactJS and WebPack, with MongoDB database.
