@@ -10,7 +10,10 @@ import './src/css/container.css';
 
 var date = new Date();
 
-const uri = 'https://localhost:3000';
+var ipParse = window.location.href.toString().split("/");
+var IP = ipParse[2].split(":");
+
+const uri = 'https://'+IP[0]+':3000';
 const options = { transports: ['websocket'] };
 
 class Index extends React.Component{
