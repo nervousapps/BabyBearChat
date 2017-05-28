@@ -12,5 +12,5 @@ HTTP secure chat using NodeJS, ReactJS and WebPack, with MongoDB database.
 
 5) Run : node server.js
 
-6) Go to https://YOURIP:3000
+6) Go to https://YOUR_IP:3000
 
