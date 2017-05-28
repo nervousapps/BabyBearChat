@@ -10,7 +10,9 @@ HTTP secure chat using NodeJS, ReactJS and WebPack, with MongoDB database.
 
 4) Run the mongoDb database with the command: mongod --dbpath=/PATH_OF_THE_APP/data
 
-5) Run : node server.js
+5) Generate certificat for your domain (see instructions in certif folder)
 
-6) Go to https://YOUR_IP:3000
+6) Run : node server.js
+
+7) Go to https://YOUR_IP:3000
 
