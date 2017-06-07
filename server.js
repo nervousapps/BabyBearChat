@@ -259,8 +259,6 @@ var connect = function(jmess, socket, db){
 var displayMess = function(jmess, socket, db){
 	socket.emit('clearMsg', jmess.usrReach);
 
-	console.log("IF IF IF");
-
 	if(jmess.usrReach === "BabyBearChannel"){
 		db.collection("groups").find({"group": "BabyBearChannel"}).toArray(function (err, result) {
 			if (err) {
@@ -284,17 +282,13 @@ var displayMess = function(jmess, socket, db){
 			}
 		});
 	}else{
-		console.log("HOHOHOHOHO");
 		db.collection("users").find({"usrName": jmess.usrName}).toArray(function (err, result) {
-			console.log("HAHAHAHAHA");
 			if (err) {
 				console.log(err);
 			}else{
-				console.log("HEHEHEHEHEHEHEHE");
 				console.log(result);
 				console.log(result[0]);
 				function findMess(element, index, array){
-					console.log("HUHUHUHUHUHUHUHHUHU");
 					if((element.to == jmess.usrName && element.from === jmess.usrReach) || (element.to == jmess.usrReach && element.from === jmess.usrName)){
 						socket.emit('updateUserMess', {"to": element.to, "from":element.from, "body": element.body, "date": element.date});
 						console.log({"to": element.to, "from":element.from, "body": element.body, "date": element.date});
